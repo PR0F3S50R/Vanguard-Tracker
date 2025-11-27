@@ -29,7 +29,11 @@ Socket.IO - Real-time, Bidirectional Communication Engine
 
 Frontend:
 
-React.js - Frontend Library
+HTML5 - Semantic Structure
+
+CSS3 - Modern Styling with Glassmorphism
+
+Vanilla JavaScript - ES6+ Application Logic
 
 Mapbox GL JS - Interactive Mapping Library
 
@@ -39,7 +43,7 @@ Development Tools:
 
 Nodemon (optional, for backend auto-restarts)
 
-Create React App - React Project Scaffolding
+http-server - Simple HTTP server for frontend
 
 🚀 Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
@@ -83,15 +87,27 @@ Install the required npm packages:
 
 npm install
 
-Add Your Mapbox Token:
+Configure Your Mapbox Token:
 
-Open the file frontend/src/components/MapComponent.js.
+**Option 1: Using config.js (Recommended for quick setup)**
 
-Find the line: mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+Open the file `frontend/config.js`.
 
-Replace 'YOUR_MAPBOX_ACCESS_TOKEN' with your actual public token from Mapbox.
+Find the line: `MAPBOX_ACCESS_TOKEN: 'YOUR_MAPBOX_ACCESS_TOKEN_HERE'`
 
-Start the React development server:
+Replace `'YOUR_MAPBOX_ACCESS_TOKEN_HERE'` with your actual public token from Mapbox.
+
+**Option 2: Using .env file (Recommended for production)**
+
+Open the file `frontend/.env`.
+
+Replace `YOUR_MAPBOX_ACCESS_TOKEN_HERE` with your actual Mapbox access token:
+
+```
+MAPBOX_ACCESS_TOKEN=pk.eyJ1IjoieW91cnVzZXJuYW1lIiwi...
+```
+
+Start the frontend development server:
 
 npm start
 
