@@ -5,7 +5,7 @@ This project serves as the foundational software component for a larger system d
 
 (You can replace this link with a screenshot of your own running application)
 
-✨ Features (Current Phase)
+ Features (Current Phase)
 Live Location Tracking: A vehicle's position is updated on the map in real-time without needing to refresh the page.
 
 Real-Time Route Simulation: The backend simulates a realistic trip, broadcasting sequential GPS coordinates.
@@ -121,4 +121,5 @@ Dynamic Driver Score: Develop a backend algorithm to analyze the incoming data s
 Predictive Maintenance Alerts: Implement a rules engine to monitor vehicle telemetry (e.g., coolant temperature, engine load) and generate alerts for potential mechanical issues.
 
 Database Integration: Connect the backend to a MongoDB database to store trip history, driver events, and vehicle data for historical playback and analysis.
+
 
