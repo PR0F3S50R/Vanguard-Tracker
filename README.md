@@ -104,7 +104,7 @@ Open the file `frontend/.env`.
 Replace `YOUR_MAPBOX_ACCESS_TOKEN_HERE` with your actual Mapbox access token:
 
 ```
-MAPBOX_ACCESS_TOKEN=pk.eyJ1IjoieW91cnVzZXJuYW1lIiwi...
+MAPBOX_ACCESS_TOKEN=" "
 ```
 
 Start the frontend development server:
@@ -121,3 +121,4 @@ Dynamic Driver Score: Develop a backend algorithm to analyze the incoming data s
 Predictive Maintenance Alerts: Implement a rules engine to monitor vehicle telemetry (e.g., coolant temperature, engine load) and generate alerts for potential mechanical issues.
 
 Database Integration: Connect the backend to a MongoDB database to store trip history, driver events, and vehicle data for historical playback and analysis.
+
